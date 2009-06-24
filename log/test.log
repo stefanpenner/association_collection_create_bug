@@ -1,0 +1,37 @@
+  [4;36;1mUser Create (2.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:28:07', '2009-06-24 19:28:07', NULL)[0m
+  [4;35;1mRole Create (0.5ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:28:07', '2009-06-24 19:28:07', NULL, NULL)[0m
+  [4;36;1mUser Create (0.3ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:28:07', '2009-06-24 19:28:07', 'tester')[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:28:34', '2009-06-24 19:28:34', NULL)[0m
+  [4;35;1mRole Create (0.3ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:28:34', '2009-06-24 19:28:34', NULL, NULL)[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:28:34', '2009-06-24 19:28:34', 'tester')[0m
+  [4;35;1mGroup Create (0.1ms)[0m   [0mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:28:34', '2009-06-24 19:28:34')[0m
+  [4;36;1mUser Create (1.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:29:09', '2009-06-24 19:29:09', NULL)[0m
+  [4;35;1mRole Create (0.3ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:29:09', '2009-06-24 19:29:09', NULL, NULL)[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:29:09', '2009-06-24 19:29:09', 'tester')[0m
+  [4;35;1mGroup Create (1.0ms)[0m   [0mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:29:09', '2009-06-24 19:29:09')[0m
+  [4;36;1mGroup Create (0.1ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:29:09', '2009-06-24 19:29:09')[0m
+  [4;35;1mRole Create (0.3ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:29:09', '2009-06-24 19:29:09', 2, 1)[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:29:25', '2009-06-24 19:29:25', NULL)[0m
+  [4;35;1mRole Create (0.4ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:29:25', '2009-06-24 19:29:25', NULL, NULL)[0m
+  [4;36;1mUser Create (7.1ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:29:25', '2009-06-24 19:29:25', 'tester')[0m
+  [4;35;1mGroup Create (0.3ms)[0m   [0mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:29:25', '2009-06-24 19:29:25')[0m
+  [4;36;1mGroup Create (0.2ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:29:25', '2009-06-24 19:29:25')[0m
+  [4;35;1mRole Create (0.4ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:29:25', '2009-06-24 19:29:25', 2, 1)[0m
+  [4;36;1mUser Create (0.5ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:30:11', '2009-06-24 19:30:11', NULL)[0m
+  [4;35;1mRole Create (0.4ms)[0m   [0mINSERT INTO "roles" ("created_at", "updated_at", "group_id", "user_id") VALUES('2009-06-24 19:30:11', '2009-06-24 19:30:11', NULL, NULL)[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:30:11', '2009-06-24 19:30:11', 'tester')[0m
+  [4;35;1mGroup Exists (0.2ms)[0m   [0mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;36;1mGroup Create (0.1ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:30:11', '2009-06-24 19:30:11')[0m
+  [4;35;1mGroup Exists (0.2ms)[0m   [0mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;36;1mGroup Exists (0.2ms)[0m   [0;1mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:30:51', '2009-06-24 19:30:51', NULL)[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:30:51', '2009-06-24 19:30:51', 'tester')[0m
+  [4;36;1mGroup Exists (0.3ms)[0m   [0;1mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;35;1mGroup Create (0.2ms)[0m   [0mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:30:51', '2009-06-24 19:30:51')[0m
+  [4;36;1mGroup Exists (0.3ms)[0m   [0;1mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;35;1mGroup Exists (0.2ms)[0m   [0mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;36;1mUser Create (0.4ms)[0m   [0;1mINSERT INTO "users" ("created_at", "updated_at", "login") VALUES('2009-06-24 19:31:05', '2009-06-24 19:31:05', 'tester')[0m
+  [4;35;1mGroup Exists (0.1ms)[0m   [0mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;36;1mGroup Create (0.1ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('group1', '2009-06-24 19:31:05', '2009-06-24 19:31:05')[0m
+  [4;35;1mGroup Exists (0.1ms)[0m   [0mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m
+  [4;36;1mGroup Exists (0.1ms)[0m   [0;1mSELECT "groups".id FROM "groups" WHERE ("groups"."name" = 'group1') LIMIT 1[0m

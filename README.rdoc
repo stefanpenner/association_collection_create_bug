@@ -1,13 +1,16 @@
 ActiveRecord has_many :through's AR_instance.collection.create seems to act as collection.create!, raising errors instead of merely building the AR object instance with the appropriate errors.
 
-
+=Example
   #results in an error being raised.
   group.users.create(..with..invalid..user..attributes..)
   
 
-Failing specs are included.
+=Specs
+  #Failing specs are included.
+  rake
 
 
+=Workaround
   #Hackish Workaround.
   @user = group.users.create(..with..invalid..user..attributes..) rescue User.build(..with..invalid..user..attributes..)
 

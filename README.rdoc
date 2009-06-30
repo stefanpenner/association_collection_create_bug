@@ -1,4 +1,4 @@
-ActiveRecord has_many :through's AR_instance.collection.create seems to act as collection.create!, raising errors instead of merely building the AR object instance with the appropriate errors.
+ActiveRecord has_many :through's association_collection#create seems to act as association_collection#create!, raising errors instead of merely building the AR object instance with the appropriate errors.
 
 ==Example
   #results in an error being raised.

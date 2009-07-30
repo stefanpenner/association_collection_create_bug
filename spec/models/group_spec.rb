@@ -8,7 +8,7 @@ describe Group do
 
   it "should not raise a validation error on collect#create" do
     @user = User.create(:login => 'tester')
-    @group1 = user.groups.create(:name => 'group1')
-    @user.groups.create(:name => @group1.name).should_not be_valid
+    @group1 = @user.groups.create(:name => 'group1')
+    @user.groups.create(:name => @group1.name)
   end
 end
